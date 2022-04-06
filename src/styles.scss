@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+    src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "Poppins Bold";
-    src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+    src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
 }
 
 :root {
@@ -16,9 +16,11 @@
     --white-color: #fff;
     --black-color: #000;
 }
+
 body {
     margin: 0;
     padding: 0;
+    // width: 100vw;
     * {
         line-height: 100%;
         letter-spacing: -0.07em;

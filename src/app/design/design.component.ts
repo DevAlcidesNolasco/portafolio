@@ -10,6 +10,7 @@ export class DesignComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // alert(`Width-> ${window.screen.width} Height-> ${window.screen.height}`);
   }
 
 }
