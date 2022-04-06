@@ -1,0 +1,24 @@
+<article>
+    <div class="header">
+        <h2>
+            Facilitando aplicaciones <span>modernas</span>
+        </h2>
+        <p>
+            Con herramientas modernas y fáciles de utilizar.
+        </p>
+        <img class="background" src="../../assets/images/Rectangle 82(square).svg" alt="">
+    </div>
+    <div class="wrapper tecnologies">
+        <ul class="lists">
+            <li class="list" *ngFor="let list of lists">
+                <h5>{{ list.title }}</h5>
+                <ul class="array">
+                    <li *ngFor="let item of list.array" class="items">
+                        <app-tecnology [tecnology]="item"></app-tecnology>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</article>

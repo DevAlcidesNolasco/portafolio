@@ -1,0 +1,120 @@
+@media only screen and (max-width: 768px) {
+    article {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 0;
+        height: 100vh;
+        width: 100%;
+        justify-content: space-around;
+        box-sizing: border-box;
+        div {
+            display: flex;
+            flex-flow: column nowrap;
+            margin: 0;
+            padding: 15px;
+            gap: 25px;
+            // border: solid 1px red;
+            h1 {
+                font-size: 2.3em;
+                font-family: "Poppins Bold";
+                color: var(--white-color);
+                margin: 0;
+                padding: 0;
+                // border: red solid 1px;
+            }
+            p {
+                color: var(--lighter-color);
+                font-size: 1.6em;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        img.portrait {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            box-sizing: content-box;
+        }
+        img.background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 70%;
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            z-index: -1;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    article {
+        margin: 0;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        gap: 15px;
+        padding: 0 11%;
+        justify-content: center;
+        // border: red solid 1px;
+        box-sizing: content-box;
+        height: 100%;
+        div {
+            margin: 0;
+            padding: 0;
+            // border: solid green 1px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            h1 {
+                margin: 0;
+                padding: 0;
+                font-size: 4.5em;
+                font-family: "Poppins Bold";
+                text-align: end;
+                color: var(--white-color);
+                text-shadow: rgb(3, 64, 125) 5px 0px 0px, rgb(3, 64, 125) 4.90033px 0.993347px 0px,
+                    rgb(3, 64, 125) 4.60531px 1.94709px 0px, rgb(3, 64, 125) 4.12668px 2.82321px 0px,
+                    rgb(3, 64, 125) 3.48353px 3.58678px 0px, rgb(3, 64, 125) 2.70151px 4.20736px 0px,
+                    rgb(3, 64, 125) 1.81179px 4.6602px 0px, rgb(3, 64, 125) 0.849836px 4.92725px 0px,
+                    rgb(3, 64, 125) -0.145998px 4.99787px 0px, rgb(3, 64, 125) -1.13601px 4.86924px 0px,
+                    rgb(3, 64, 125) -2.08073px 4.54649px 0px, rgb(3, 64, 125) -2.94251px 4.04248px 0px,
+                    rgb(3, 64, 125) -3.68697px 3.37732px 0px, rgb(3, 64, 125) -4.28444px 2.57751px 0px,
+                    rgb(3, 64, 125) -4.71111px 1.67494px 0px, rgb(3, 64, 125) -4.94996px 0.7056px 0px,
+                    rgb(3, 64, 125) -4.99147px -0.291871px 0px, rgb(3, 64, 125) -4.83399px -1.27771px 0px,
+                    rgb(3, 64, 125) -4.48379px -2.2126px 0px, rgb(3, 64, 125) -3.95484px -3.05929px 0px,
+                    rgb(3, 64, 125) -3.26822px -3.78401px 0px, rgb(3, 64, 125) -2.4513px -4.35788px 0px,
+                    rgb(3, 64, 125) -1.53666px -4.75801px 0px, rgb(3, 64, 125) -0.560763px -4.96846px 0px,
+                    rgb(3, 64, 125) 0.437495px -4.98082px 0px, rgb(3, 64, 125) 1.41831px -4.79462px 0px,
+                    rgb(3, 64, 125) 2.34258px -4.41727px 0px, rgb(3, 64, 125) 3.17346px -3.86382px 0px,
+                    rgb(3, 64, 125) 3.87783px -3.15633px 0px, rgb(3, 64, 125) 4.4276px -2.32301px 0px,
+                    rgb(3, 64, 125) 4.80085px -1.39708px 0px, rgb(3, 64, 125) 4.98271px -0.415447px 0px;
+            }
+            p {
+                font-size: 2.5em;
+                text-align: end;
+                color: var(--secondary-color);
+            }
+        }
+        img.portrait {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            // border: red solid 1px;
+        }
+        img.background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            z-index: -1;
+        }
+    }
+}

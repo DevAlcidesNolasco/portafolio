@@ -1,0 +1,223 @@
+@media only screen and (max-width: 768px) {
+    article {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 100vh;
+        // overflow-y: hidden;
+        // border: red solid 1px;
+        justify-content: space-between;
+        div.header {
+            margin: 0;
+            padding: 25px 15px 15px;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 10px;
+            // border: red solid 1px;
+            h2 {
+                font-size: 2.3em;
+                font-family: "Poppins Bold";
+                color: var(--primary-color);
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                text-shadow: rgb(255, 255, 255) 5px 0px 0px, rgb(255, 255, 255) 4.90033px 0.993347px 0px,
+                    rgb(255, 255, 255) 4.60531px 1.94709px 0px, rgb(255, 255, 255) 4.12668px 2.82321px 0px,
+                    rgb(255, 255, 255) 3.48353px 3.58678px 0px, rgb(255, 255, 255) 2.70151px 4.20736px 0px,
+                    rgb(255, 255, 255) 1.81179px 4.6602px 0px, rgb(255, 255, 255) 0.849836px 4.92725px 0px,
+                    rgb(255, 255, 255) -0.145998px 4.99787px 0px, rgb(255, 255, 255) -1.13601px 4.86924px 0px,
+                    rgb(255, 255, 255) -2.08073px 4.54649px 0px, rgb(255, 255, 255) -2.94251px 4.04248px 0px,
+                    rgb(255, 255, 255) -3.68697px 3.37732px 0px, rgb(255, 255, 255) -4.28444px 2.57751px 0px,
+                    rgb(255, 255, 255) -4.71111px 1.67494px 0px, rgb(255, 255, 255) -4.94996px 0.7056px 0px,
+                    rgb(255, 255, 255) -4.99147px -0.291871px 0px, rgb(255, 255, 255) -4.83399px -1.27771px 0px,
+                    rgb(255, 255, 255) -4.48379px -2.2126px 0px, rgb(255, 255, 255) -3.95484px -3.05929px 0px,
+                    rgb(255, 255, 255) -3.26822px -3.78401px 0px, rgb(255, 255, 255) -2.4513px -4.35788px 0px,
+                    rgb(255, 255, 255) -1.53666px -4.75801px 0px, rgb(255, 255, 255) -0.560763px -4.96846px 0px,
+                    rgb(255, 255, 255) 0.437495px -4.98082px 0px, rgb(255, 255, 255) 1.41831px -4.79462px 0px,
+                    rgb(255, 255, 255) 2.34258px -4.41727px 0px, rgb(255, 255, 255) 3.17346px -3.86382px 0px,
+                    rgb(255, 255, 255) 3.87783px -3.15633px 0px, rgb(255, 255, 255) 4.4276px -2.32301px 0px,
+                    rgb(255, 255, 255) 4.80085px -1.39708px 0px, rgb(255, 255, 255) 4.98271px -0.415447px 0px;
+                span {
+                    color: var(--secondary-color);
+                    font-family: "Poppins Bold";
+                    font-size: 2.9rem;
+                }
+            }
+            p {
+                font-size: 1.6em;
+                text-align: center;
+                color: var(--secondary-color);
+                margin: 0;
+                padding: 0;
+            }
+            img.background {
+                position: absolute;
+                top: calc(200vh);
+                left: calc(50%);
+                transform: rotate(180deg) translateX(50%);
+                height: 15%;
+                width: 70%;
+                object-fit: cover;
+                object-position: bottom;
+                border-radius: 15px 15px 0 0;
+                z-index: -1;
+            }
+        }
+        div.wrapper.tecnologies {
+            display: flex;
+            flex-flow: column nowrap;
+            width: 100%;
+            margin: 0;
+            padding: 10px 0 0 0;
+            background-color: var(--primary-color);
+            ul.lists {
+                list-style: none;
+                display: flex;
+                flex-flow: column nowrap;
+                width: 100%;
+                // border: green solid 1px;
+                margin: 0;
+                padding: 0;
+                li.list {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    margin: 0;
+                    padding: 0;
+                    gap: 10px;
+                    // border: blue solid 1px;
+                    justify-content: center;
+                    align-items: center;
+                    h5 {
+                        font-family: "Poppins Bold";
+                        font-size: 1.6rem;
+                        margin: 0;
+                        padding: 0;
+                        color: var(--lighter-color);
+                    }
+                    ul.array {
+                        list-style: none;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        margin: 0;
+                        padding: 0;
+                        justify-content: center;
+                        gap: 10px;
+                        // border: red solid 1px;
+                        li.item {
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    article {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        // border: red solid 1px;
+        height: 100vh;
+        padding: 0 11%;
+        div {
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 45px;
+            // border: green solid 1px;
+            justify-content: center;
+            width: 100%;
+            h2 {
+                font-size: 4.5em;
+                font-family: "Poppins Bold";
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                color: var(--primary-color);
+                text-shadow: rgb(255, 255, 255) 5px 0px 0px, rgb(255, 255, 255) 4.90033px 0.993347px 0px,
+                    rgb(255, 255, 255) 4.60531px 1.94709px 0px, rgb(255, 255, 255) 4.12668px 2.82321px 0px,
+                    rgb(255, 255, 255) 3.48353px 3.58678px 0px, rgb(255, 255, 255) 2.70151px 4.20736px 0px,
+                    rgb(255, 255, 255) 1.81179px 4.6602px 0px, rgb(255, 255, 255) 0.849836px 4.92725px 0px,
+                    rgb(255, 255, 255) -0.145998px 4.99787px 0px, rgb(255, 255, 255) -1.13601px 4.86924px 0px,
+                    rgb(255, 255, 255) -2.08073px 4.54649px 0px, rgb(255, 255, 255) -2.94251px 4.04248px 0px,
+                    rgb(255, 255, 255) -3.68697px 3.37732px 0px, rgb(255, 255, 255) -4.28444px 2.57751px 0px,
+                    rgb(255, 255, 255) -4.71111px 1.67494px 0px, rgb(255, 255, 255) -4.94996px 0.7056px 0px,
+                    rgb(255, 255, 255) -4.99147px -0.291871px 0px, rgb(255, 255, 255) -4.83399px -1.27771px 0px,
+                    rgb(255, 255, 255) -4.48379px -2.2126px 0px, rgb(255, 255, 255) -3.95484px -3.05929px 0px,
+                    rgb(255, 255, 255) -3.26822px -3.78401px 0px, rgb(255, 255, 255) -2.4513px -4.35788px 0px,
+                    rgb(255, 255, 255) -1.53666px -4.75801px 0px, rgb(255, 255, 255) -0.560763px -4.96846px 0px,
+                    rgb(255, 255, 255) 0.437495px -4.98082px 0px, rgb(255, 255, 255) 1.41831px -4.79462px 0px,
+                    rgb(255, 255, 255) 2.34258px -4.41727px 0px, rgb(255, 255, 255) 3.17346px -3.86382px 0px,
+                    rgb(255, 255, 255) 3.87783px -3.15633px 0px, rgb(255, 255, 255) 4.4276px -2.32301px 0px,
+                    rgb(255, 255, 255) 4.80085px -1.39708px 0px, rgb(255, 255, 255) 4.98271px -0.415447px 0px;
+                span {
+                    color: var(--secondary-color);
+                    font-size: 5.4rem;
+                }
+            }
+            p {
+                font-size: 2.5em;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                color: var(--secondary-color);
+            }
+            img.background {
+                position: absolute;
+                object-fit: cover;
+                object-position: bottom;
+                border-radius: 15px 15px 0 0;
+                top: 200vh;
+                transform: rotate(180deg);
+                right: calc(11% + 7px);
+                width: calc(50% - 11% - 15px);
+                height: 52%;
+                z-index: -1;
+            }
+        }
+        div.wrapper.tecnologies {
+            margin: 0;
+            padding: 0;
+            // border: red solid 1px;
+            align-items: center;
+            ul.lists {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                // border: red solid 1px;
+                li.list {
+                    // border: red solid 1px;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    gap: 10px;
+                    h5 {
+                        font-size: 2.2em;
+                        margin: 0;
+                        padding: 0;
+                        font-family: "Poppins Bold";
+                        color: var(--primary-color);
+                        text-align: center;
+                    }
+                    ul.array {
+                        display: flex;
+                        flex-flow: row wrap;
+                        list-style: none;
+                        gap: 10px;
+                        margin: 0;
+                        padding: 0;
+                        justify-content: center;
+                        // border: red solid 1px;
+                        li.items {
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
