@@ -7,7 +7,7 @@ article {
 }
 
 // movil
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     article {
         padding: 0;
         flex-flow: column nowrap;
@@ -59,8 +59,8 @@ article {
     }
 }
 
-// desktop
-@media only screen and (min-width: 768px) {
+// medium
+@media only screen and (min-width: 600px) {
     article {
         flex-flow: row-reverse nowrap;
         gap: 15px;
